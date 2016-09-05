@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>reveal-console.js</title>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section style="font-size: 100px;">
+          First Slide
+        </section>
+        <section style="font-size: 100px;">
+          Slide 2
+          <aside class="notes">
+            Notes for Slide 2.
+          </aside>
+        </section>
+        <section style="font-size: 100px;">
+          <p class="fragment">
+            A
+          </p>
+          <p class="fragment">
+            Slide
+          </p>
+          <p class="fragment">
+            In the Middle
+          </p>
+          <aside class="notes">
+            <ol>
+              <li>Firstly "A" appears</li>
+              <li>Then, you'll see "Slide"</li>
+              <li>Eventually, "In the Middle" comes out</li>
+              <ul>
+                <li>Now you're ready to go the next slide</li>
+              </ul>
+            </ol>
+          </aside>
+        </section>
+        <section style="font-size: 100px;">
+          Last Slide
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script src="js/reveal-console.min.js"></script>
+
+    <script>
+      Reveal.initialize({
+        history: true,
+        controls: false,
+      });
+    </script>
+  </body>
+</html>
