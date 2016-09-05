@@ -4,7 +4,10 @@ reveal-console.js
 reveal-console.js provides a speaker console for slides made by [reveal.js](https://github.com/hakimel/reveal.js).
 It shows a small view of the current slide, a preview of the next slide (or fragment), and speaker notes.
 
-Unlike the [speaker notes plugin](https://github.com/hakimel/reveal.js#speaker-notes) bundled in reveal.js, reveal-console.js can work without a web server or Node.js.
+~~Unlike the [speaker notes plugin](https://github.com/hakimel/reveal.js#speaker-notes) bundled in reveal.js,~~ reveal-console.js can work without a web server or Node.js.
+
+__[The speaker notes plugin works without a web server since Apr 2014.](https://github.com/hakimel/reveal.js/issues/207)__
+Now this plugin is better option.
 
 This library was inspired by [impress-console](https://github.com/regebro/impress-console).
 
