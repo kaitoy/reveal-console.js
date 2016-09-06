@@ -1,13 +1,10 @@
 {
   "extends": "airbnb",
   "rules": {
-    "no-console": 0,
-    "import/no-unresolved": 0
+    "no-console": 0
   },
   "settings": {
-    "import/resolver": {
-      "webpack": "webpack.config.js"
-    }
+    "import/resolver": "webpack"
   },
   "env": {
     "browser": true
